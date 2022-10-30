@@ -27,7 +27,7 @@ const userSchema = Schema(
     },
     userContacts: {
       type: Array,
-      ref: "Contact",
+      ref: "contact",
       default: [],
     },
     userNotes: {
